@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.dad {
+    display: flex;
+    width: 100%;
+    padding: 3% 0 0; 
+}
+.box1 {
+    background: url(img/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+.box1 header {
+    height: 10%;
+    display: flex;
+    padding: 0 3%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 150px;
+}
+.secoes {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.secoes ul {
+    list-style: none;
+}
+.secoes ul li {
+    float: left;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.secoes ul li a {
+    text-decoration: none;
+    color: black;
+}
+.secoes ul li a:hover {
+    text-decoration: underline;
+}
+.texto-cabecalho {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.creditos {
+    color: #ffffff4d;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+}
+.creditos a {
+    color: #ffffff8a;
+}
+.box1 h1, .box1 h2 {
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+.box1 h1 {
+    font-size: 70px;
+}
+.box3 {
+    padding: 0 3%;
+    text-align: justify;
+    width: 50%;
+}
+.box4 {
+    text-align: justify;
+    padding: 0 3%;
+}
+.box5 {
+    text-align: center;
+}
+.column {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.center {
+    text-align: center;
+    padding: 2% 0;
+}
+.two {
+    width: 50%
+}
+.four {
+    width: 15%;
+}
+#bt {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+} 
+.icon {
+    font-size: 50px;
+    padding: 10% 0;
+}
+.box6 {
+    float: left;
+    width: 50%;
+}
+.box7 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.box7 img {
+    width: 250px;
+    padding: 3%;
+}
+footer {
+    border-top: 1px solid #cecece;
+    height: 150px;
+    padding: 0 3%;
+    text-align: center;
+}
+footer h3, footer h4 {
+    margin: 10px 0;
+}
