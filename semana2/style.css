@@ -94,6 +94,7 @@ body {
 .box5 {
     text-align: center;
 }
+
 .column {
     float: left;
     padding: 0 5%;
@@ -109,6 +110,7 @@ body {
 .four {
     width: 15%;
 }
+
 #bt {
     color: white;
     border: 1px white solid;
@@ -130,7 +132,7 @@ body {
     text-align: center;
 }
 .box7 img {
-    width: 250px;
+    width: 50%;
     padding: 3%;
 }
 footer {
@@ -141,4 +143,37 @@ footer {
 }
 footer h3, footer h4 {
     margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .secoes {
+        display: none;
+    }
+    .column, .two, .four, .center, .dad, .box3, .box4 {
+        display: block;
+        width: 80vw;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    .box6 {
+        text-align: justify;
+    }
+    .logo {
+        width: 100vw;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .texto-cabecalho {
+        height: 100%;
+    }
+    .texto-cabecalho h2 {
+        font-size: 14px;
+    }
+    .texto-cabecalho h1 {
+        font-size: 30px;
+    }
 }
